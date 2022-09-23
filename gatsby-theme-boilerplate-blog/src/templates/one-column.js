@@ -33,7 +33,7 @@ const OneColumn = ({ location, pageContext }) => {
         />
       }
       opt={{
-        titleSeo: `As Casamenteiras`,
+        titleSeo: `Aumentados`,
         classes: "one-column",
         mainLogo: imgHolder,
         cardImage: cardImage ? getSrc(cardImage.childrenImageSharp[0]) : null,

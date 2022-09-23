@@ -285,13 +285,13 @@ const IndexPage = props => {
                     })}
                   </ul>
 
-                  <GatsbyImage
+                  {/* <GatsbyImage
                     image={vaiCasarGetImg}
                     alt={"title"}
                     placeholder={"NONE"}
                     critical='true'
                     className={"video-promo"}
-                  />
+                  /> */}
                   <ABpopupcontainer
                     heading={`Vai Casar?`}
                     buttonContent={
@@ -327,15 +327,15 @@ const IndexPage = props => {
                     </p>
                     {printMySocial(
                       instaGetImg,
-                      "https://instagram.com/ascasamenteiras_"
+                      "https://instagram.com/aumentados_"
                     )}
                     {printMySocial(
                       zankyouGetImg,
-                      "https://www.zankyou.com.br/f/as-casamenteiras-976737"
+                      "https://www.zankyou.com.br/f/aumentados-976737"
                     )}
                     {printMySocial(
                       casamentospontocomGetImg,
-                      "https://www.casamentos.com.br/cerimonialista/as-casamenteiras-de-ribeirao--e192771"
+                      "https://www.casamentos.com.br/cerimonialista/aumentados-de-ribeirao--e192771"
                     )}
                     {printMySocial(
                       whatsGetImg,
@@ -351,7 +351,7 @@ const IndexPage = props => {
                     )}
                     {printMySocial(
                       githubGetImg,
-                      "https://github.com/ascasamenteiras/web-site"
+                      "https://github.com/aumentados/web-site"
                     )}
 
                     <span id='perfil' />
@@ -496,7 +496,7 @@ const IndexPage = props => {
           </section>
         </Row>
         <HeadingBlock classes='m30auto hack' importance={9} width={300}>
-          Destaques d'As Casamenteiras
+          Destaques d'Aumentados
         </HeadingBlock>
         <Row opt={{ isBoxed: true, classes: "main-container-wrapper" }}>
           <PostsBlock

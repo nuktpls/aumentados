@@ -24,6 +24,6 @@ Disallow: /biografia/
 Disallow: /portifolio/
 Disallow: /category/pain/
 
-Sitemap: https://ascasamenteiras.com.br/post-sitemap.xml
-Sitemap: https://ascasamenteiras.com.br/page-sitemap.xml
-Sitemap: https://ascasamenteiras.com.br/sitemaps.xml
+Sitemap: https://aumentados.com.br/post-sitemap.xml
+Sitemap: https://aumentados.com.br/page-sitemap.xml
+Sitemap: https://aumentados.com.br/sitemaps.xml

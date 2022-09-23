@@ -2,15 +2,15 @@
 topology: pages
 status: true
 title: RSVP e Contato
-description: As Casamenteiras realizam assessoria e cerimonal de casamentos, eventos corporativos e festas em geral.
+description: Aumentados realizam assessoria e cerimonal de casamentos, eventos corporativos e festas em geral.
 slug: rsvp-contato
 featuredImage: ../posts/images/52015494369_659ac9d5bb_o.jpg
 date: 2022-06-30T19:50:00+00:00
 ---
 
-Siga As Casamenteiras nas redes sociais.
+Siga Aumentados nas redes sociais.
 
-- [Instagram](https://instagram.com/ascasamenteiras_)
+- [Instagram](https://instagram.com/aumentados_)
 
 Os formulários a seguir servem para contato geral e/ou pedido de orçamento para serviços de assessoria e cerimonial de casamentos e eventos em geral.
 

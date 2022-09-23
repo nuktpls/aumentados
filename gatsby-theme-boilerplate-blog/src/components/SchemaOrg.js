@@ -30,15 +30,14 @@ export default React.memo(
     featuredImage,
   }) => {
     const dateNow = Date.now();
-    const authorType =
-      author === "As Casamenteiras" ? "Organization" : "Person";
+    const authorType = author === "Aumentados" ? "Organization" : "Person";
     let socialValues = [];
     Object.values(sameAs).forEach(social => socialValues.push(social));
     const orgSchema = [
       {
         "@type": ["Organization"],
         "@context": "http://schema.org",
-        name: "As Casamenteiras",
+        name: "Aumentados",
         url: siteUrl,
         email: email,
         description: brandDescription,

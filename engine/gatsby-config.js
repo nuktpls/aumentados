@@ -29,8 +29,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `As Casamenteiras`,
-        short_name: `AsCasamenteiras`,
+        name: `Aumentados`,
+        short_name: `Aumentados`,
         start_url: `/`,
         background_color: `#011624`,
         theme_color: `#032741`,

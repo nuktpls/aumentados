@@ -1,11 +1,11 @@
 ---
 topology: posts
 title: Assessoria e Cerimonial Plena (completa)
-headline: O serviço de assessoria e cerimonial plena é relativo ao pacote básico dos serviços dAs Casamenteiras.
+headline: O serviço de assessoria e cerimonial plena é relativo ao pacote básico dos serviços dAumentados.
 date: 2022-08-01T08:30:00+00:00
 createdAt: 2022-07-11T22:17:20+00:00
 updatedAt: 2022-08-01T08:30:00+00:00
-author: Equipe As Casamenteiras
+author: Equipe Aumentados
 categories:
   - serviços
   - cerimonial
@@ -25,11 +25,11 @@ Em cada uma das etapas da _Assessoria e Cerimonial Plena (completa)_ o foco est�
 
 A reunião inicial e o briefing/roteiro norteiam a organização do evento. O atendimento virtual é realizado para elaboração do roteiro do cerimonial e sanar dúvidas.
 
-As Casamenteiras mantém contato frequente com todos os fornecedores envolvidos e faz o serviço de acompanhamento dos contratados de perto e alinhamento do cronograma de chegada no local do casamento.
+Aumentados mantém contato frequente com todos os fornecedores envolvidos e faz o serviço de acompanhamento dos contratados de perto e alinhamento do cronograma de chegada no local do casamento.
 
 Ainda fazemos o agendamento de degustação com buffet, visita técnica e a reunião final.
 
-## Diferenciais dAs Casamenteiras
+## Diferenciais dAumentados
 
 Organização financeira via app e assinatura de todos os contratos digitalmente.
 
@@ -39,9 +39,9 @@ Checagem experiente e moderna dos fornecedores contratados. Elaboração do rote
 
 ## O Cerimonial, A Festa e o Pós-Festa
 
-As Casamenteiras estarão uniformizadas e equipadas com rádios comunicadores (até 3 pessoas) acompanhando a montagem, o cerimonial e o pós-festa.
+Aumentados estarão uniformizadas e equipadas com rádios comunicadores (até 3 pessoas) acompanhando a montagem, o cerimonial e o pós-festa.
 
-Asseguramos que o casal receba os seus presentes, bem como os ítens e lembranças do cerimonial. Outros recebidos são devidamente zelados pelAs Casamenteiras e entregues aos noivos.
+Asseguramos que o casal receba os seus presentes, bem como os ítens e lembranças do cerimonial. Outros recebidos são devidamente zelados pelAumentados e entregues aos noivos.
 
 Por fim, fazemos o relatório de convidados presentes, avaliação e o feedback junto ao casal no final do evento.
 

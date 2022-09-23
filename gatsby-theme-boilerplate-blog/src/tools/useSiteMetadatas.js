@@ -223,9 +223,7 @@ export const useSiteMetadatas = () =>
             )
           }
         }
-        bgPatternImg: file(
-          relativePath: { eq: "as-casamenteiras-PATTERN-bg.png" }
-        ) {
+        bgPatternImg: file(relativePath: { eq: "aumentados-PATTERN-bg.png" }) {
           childrenImageSharp {
             gatsbyImageData(
               height: 107

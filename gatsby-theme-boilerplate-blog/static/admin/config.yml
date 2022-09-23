@@ -1,8 +1,8 @@
 backend:
   name: github
-  repo: ascasamenteiras/web-site
+  repo: aumentados/web-site
   branch: master
-  site_domain: ascasamenteiras.com.br
+  site_domain: aumentados.com.br
 
 # local_backend: true
 publish_mode: editorial_workflow

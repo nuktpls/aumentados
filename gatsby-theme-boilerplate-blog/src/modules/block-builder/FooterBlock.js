@@ -58,14 +58,14 @@ const FooterBlock = ({
             numColumns: 5,
           }}
         >
-          {socialMe(instaGetImg, "https://www.instagram.com/ascasamenteiras_")}
+          {socialMe(instaGetImg, "https://www.instagram.com/aumentados_")}
           {socialMe(
             zankyouImgProp,
-            "https://www.zankyou.com.br/f/as-casamenteiras-976737"
+            "https://www.zankyou.com.br/f/aumentados-976737"
           )}
           {socialMe(
             casamentospontocomGetImg,
-            "https://www.casamentos.com.br/cerimonialista/as-casamenteiras-de-ribeirao--e192771"
+            "https://www.casamentos.com.br/cerimonialista/aumentados-de-ribeirao--e192771"
           )}
           {socialMe(
             faceGetImg,
@@ -79,10 +79,7 @@ const FooterBlock = ({
             whatsGetImg,
             "https://api.whatsapp.com/send?phone=5516992452437"
           )}
-          {socialMe(
-            githubGetImg,
-            "https://github.com/ascasamenteiras/web-site"
-          )}
+          {socialMe(githubGetImg, "https://github.com/aumentados/web-site")}
         </Row>
         <Row opt={{ isBoxed: true, classes: "logo-bottom-wrapper" }}>
           <div className='footer-logo'>{logo}</div>
