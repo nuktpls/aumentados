@@ -1,6 +1,6 @@
 ---
 topology: posts
-title: Assessoria e Cerimonial Plena (completa)
+title: Altas Habilidades Plena (completa)
 headline: O serviço de assessoria e cerimonial plena é relativo ao pacote básico dos serviços dAumentados.
 date: 2022-08-01T08:30:00+00:00
 createdAt: 2022-07-11T22:17:20+00:00
@@ -17,9 +17,9 @@ homeHighlightRelated: false
 homeHighlightRelatedList: true
 ---
 
-Dentro da assessoria e cerimonial plena (completa) todo o pacote básico está contemplado. Se vocês ainda não acessaram a página do pacote básico, façam uma visita para saber mais sobre esses detalhes visitando a página da [_Assessoria e Cerimonial Do Dia (básica)_](/assessoria-cerimonial-basica-dia).
+Dentro da assessoria e cerimonial plena (completa) todo o pacote básico está contemplado. Se vocês ainda não acessaram a página do pacote básico, façam uma visita para saber mais sobre esses detalhes visitando a página da [_Altas Habilidades Do Dia (básica)_](/altas-habilidades).
 
-Em cada uma das etapas da _Assessoria e Cerimonial Plena (completa)_ o foco está voltado para que a festa seja vivida desde o começo da organização, de forma plenamente e exatamente da forma sonhada. Planejar um casamento é viver o sonho antes de ele acontecer.
+Em cada uma das etapas da _Altas Habilidades Plena (completa)_ o foco está voltado para que a festa seja vivida desde o começo da organização, de forma plenamente e exatamente da forma sonhada. Planejar um casamento é viver o sonho antes de ele acontecer.
 
 ## Serviços de assessoria para o cerimonial do casamento, festas e eventos
 
@@ -47,6 +47,6 @@ Por fim, fazemos o relatório de convidados presentes, avaliação e o feedback 
 
 # RSVP - Responda Por Gentileza
 
-Começem o planejamento do seu casamento respondendo o questionário para elaboração do cerimonial. Visitem a nossa página para esse contato [clicando aqui](/rsvp-contato).
+Começem o planejamento do seu casamento respondendo o questionário para elaboração do cerimonial. Visitem a nossa página para esse contato [clicando aqui](/contato).
 
 Ou entrem em contato pelo nosso Whatsapp: [_16 99245-2437_](https://web.whatsapp.com/send?phone=5516992452437)

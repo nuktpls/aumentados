@@ -1,6 +1,6 @@
 ---
 topology: posts
-title: Assessoria e Cerimonial Do Dia (básica)
+title: Altas Habilidades Do Dia (básica)
 headline: O serviço de assessoria e cerimonial do dia é relativo ao pacote básico dos serviços dAumentados.
 date: 2022-08-01T08:30:00+00:00
 createdAt: 2022-07-10T22:17:20+00:00
@@ -47,6 +47,6 @@ Em cada uma das etapas do grande dia o foco é voltado para que a festa seja viv
 
 Esse é um resumo pontuado de diversos dos serviços que Aumentados prestam no pacote básico. Solicite um orçamento para maiores detalhes.
 
-## Assessoria e Cerimonial Plena (completa)
+## Altas Habilidades Plena (completa)
 
-Todos os serviços básicos acima apresentados estão contemplados também no pacote completo. Para conferir como funciona a [_Assessoria e Cerimonial Plena, clique aqui!_](/assessoria-cerimonial-plena-completa).
+Todos os serviços básicos acima apresentados estão contemplados também no pacote completo. Para conferir como funciona a [_Altas Habilidades Plena, clique aqui!_](/altas-habilidades).

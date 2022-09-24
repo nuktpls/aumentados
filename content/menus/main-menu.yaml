@@ -3,17 +3,17 @@ menu:
   name: MAIN_MENU
   items:
     - item:
-        label: Nossos Casais
-        to: /nossos-casais/
+        label: Cursos
+        to: /cursos/
     - item:
-        label: Assessoria e Cerimonial
-        to: /assessoria-cerimonial/
+        label: O Que São Altas Habilidades?
+        to: /o-que-sao-altas-habilidades/
     - item:
-        label: Cerimonialistas
-        to: /cerimonialistas/
+        label: Para Empresas
+        to: /para-empresas/
     - item:
-        label: RSVP e Contato
-        to: /rsvp-contato/
+        label: Contato
+        to: /contato/
     - item:
         icon: bag
     - item:

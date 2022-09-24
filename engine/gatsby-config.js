@@ -1,8 +1,8 @@
-const businessInfos = require("../gatsby-theme-boilerplate-blog/package.json");
+const businessInfos = require("../gatsby-theme-aumentados/package.json");
 module.exports = {
   plugins: [
     {
-      resolve: "gatsby-theme-boilerplate-blog",
+      resolve: "gatsby-theme-aumentados",
       options: {
         fonts: [
           businessInfos.importFont.font01,
@@ -35,7 +35,7 @@ module.exports = {
         background_color: `#011624`,
         theme_color: `#032741`,
         display: `standalone`,
-        icon: `../gatsby-theme-boilerplate-blog/static/images/android-chrome-512x512.png`,
+        icon: `../gatsby-theme-aumentados/static/images/android-icon-192x192.png`,
       },
     },
   ],
