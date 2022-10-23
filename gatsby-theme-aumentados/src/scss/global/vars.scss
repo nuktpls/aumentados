@@ -10,8 +10,8 @@ $link__color: #fff;
 $heading__top-padding: 10px;
 $heading__bottom-padding: 10px;
 
-$primary: $cta__color;
-$primary_background__color: #E5F4FF;
+$primary: $brand__color;
+$primary_background__color: $cta__color;
 $primary_background: mix(white, $cta__color, 90%);
 $primary_bg_dark: mix(white, $cta__color, 35%);
 $primary_ultralight: mix(white, $cta__color, 80%);

@@ -134,8 +134,91 @@ exports.createPages = ({ graphql, actions }) => {
           }
         }
       }
+      allCourses: allMarkdownRemark(
+        filter: { frontmatter: { topology: { eq: "course" } } }
+      ) {
+        edges {
+          node {
+            frontmatter {
+              title
+              qualification
+              description
+              headline
+              slug
+              type
+              status
+              author
+              trophy
+              order
+              featuredCourse
+              homeHighlight
+              courseHighlight
+              promoHighlight
+              categories
+              tags
+              order
+              featuredImage {
+                childrenImageSharp {
+                  gatsbyImageData(
+                    width: 350
+                    height: 224
+                    placeholder: NONE
+                    quality: 100
+                  )
+                }
+              }
+            }
+            html
+          }
+        }
+      }
     }
   `).then(result => {
+    const courses = result.data.allCourses.edges;
+    let allCourses = [];
+    courses.forEach(({ node }) => {
+      let imgsCourseObj = [];
+      const imageCourseSrc =
+        businessInfos.siteUrl +
+        node.frontmatter.featuredImage.childrenImageSharp[0].gatsbyImageData
+          .images.fallback.src;
+      if (node.frontmatter.status === true) {
+        console.log("head status>>>ok");
+        console.log("head title>>>is");
+        console.log(node.frontmatter.title);
+        createPage({
+          path: `/course/${_.kebabCase(node.frontmatter.slug)}/`,
+          component: path.resolve(
+            rootDir,
+            `gatsby-theme-aumentados/src/templates/course-template.js`
+          ),
+          context: {
+            slug: node.frontmatter.slug,
+            courseInfos: node,
+            title: node.frontmatter.title,
+            content: node.html,
+            description: node.frontmatter.description,
+          },
+        });
+        // node.htmlAst.children.map(child => {
+        //   if (child.children && child.children[0]) {
+        //     if (child.children[0].tagName === "img") {
+        //       imgsPageObj.push(child.children[0].properties.src);
+        //     }
+        //   }
+        // });
+
+        allCourses.push({
+          slug: node.frontmatter.slug,
+          date: node.frontmatter.date,
+          title: node.frontmatter.title,
+          imageSrc: imageCourseSrc,
+          excerpt: node.frontmatter.description,
+          insideImgs: imageCourseSrc,
+        });
+      }
+    });
+
     const pages = result.data.allPages.edges;
     let allPages = [];
 

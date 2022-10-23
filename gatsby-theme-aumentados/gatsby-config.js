@@ -105,6 +105,13 @@ module.exports = {
         path: path.resolve(rootDir, "content/pages"),
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `courses`,
+        path: path.resolve(rootDir, "content/courses/"),
+      },
+    },
 
     // {
     //   resolve: `@slixites/gatsby-plugin-google-fonts`,

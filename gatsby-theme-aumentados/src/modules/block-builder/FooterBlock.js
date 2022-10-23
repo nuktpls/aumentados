@@ -85,7 +85,7 @@ const FooterBlock = ({
           <div className='footer-logo'>{logo}</div>
           {/* <BoilerplateLogo className='m0auto logo-bottom' /> */}
           <p className='m0auto bottom-paragraph'>
-            © 2022 AS CASAMENTEIRAS - TODOS OS DIREITOS RESERVADOS
+            © 2022 AUMENTADOS - TODOS OS DIREITOS RESERVADOS
           </p>
         </Row>
       </Row>
