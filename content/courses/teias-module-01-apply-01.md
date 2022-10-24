@@ -6,7 +6,7 @@ headline: Esse curso é legal.
 blocked: true
 executionTime: 60
 order: 1
-status: true
+progress: inProgress
 importance: 7
 ---
 

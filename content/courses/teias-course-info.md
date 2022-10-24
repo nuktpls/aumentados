@@ -4,8 +4,8 @@ type: info
 slug: teias-governanca-metadados-metaverso
 code: IPWA
 title: Introdução à Programação Web e de Aplicativos
-status: true
-featuredImage: ../courses/images/mulher-negra-aplicativo.jpg
+published: true
+featuredImage: ../courses/images/mulher-negra-aplicativo2.jpg
 description: Essa desc.
 video: https://youtube.com/
 moduleSlug: info

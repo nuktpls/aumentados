@@ -7,7 +7,6 @@ assignTo: mentor
 featuredImage: ../courses/images/mulher-negra-aplicativo.jpg
 order: 1
 importance: 6
-status: true
 progress: inProgress
 hasComment: false
 ---

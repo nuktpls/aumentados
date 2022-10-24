@@ -94,6 +94,13 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        name: `images`,
+        path: path.resolve(rootDir, "content/courses/images/"),
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
         name: `posts`,
         path: path.resolve(rootDir, "content/posts/"),
       },
@@ -110,6 +117,7 @@ module.exports = {
       options: {
         name: `courses`,
         path: path.resolve(rootDir, "content/courses/"),
+        ignore: [`**/\.jpg`, `**/\.png`],
       },
     },
 

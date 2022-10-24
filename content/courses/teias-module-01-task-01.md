@@ -8,7 +8,6 @@ description: xx
 featuredImage: ../courses/images/mulher-negra-aplicativo.jpg
 order: 1
 importance: 10
-status: true
 progress: inProgress
 hasComment: false
 ---

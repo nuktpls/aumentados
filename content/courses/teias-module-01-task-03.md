@@ -7,7 +7,6 @@ assignTo: mentor
 description: xx
 order: 1
 importance: 10
-status: true
 progress: inProgress
 hasComment: false
 ---

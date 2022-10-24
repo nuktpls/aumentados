@@ -1,7 +1,6 @@
 ---
 topology: faq
 slug: teias-governanca-metadados-metaverso
-status: true
 title: Perguntas Frequentes
 ---
 

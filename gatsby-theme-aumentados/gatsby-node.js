@@ -146,7 +146,7 @@ exports.createPages = ({ graphql, actions }) => {
               headline
               slug
               type
-              status
+              published
               author
               trophy
               order
@@ -177,13 +177,16 @@ exports.createPages = ({ graphql, actions }) => {
     const courses = result.data.allCourses.edges;
     let allCourses = [];
     courses.forEach(({ node }) => {
+      console.log("VEJA VEJA VEJA");
+      console.log("node.frontmatter");
+      console.log(node.frontmatter);
       let imgsCourseObj = [];
       const imageCourseSrc =
         businessInfos.siteUrl +
         node.frontmatter.featuredImage.childrenImageSharp[0].gatsbyImageData
           .images.fallback.src;
-      if (node.frontmatter.status === true) {
-        console.log("head status>>>ok");
+      if (node.frontmatter.published === true) {
+        console.log("head published>>>ok");
         console.log("head title>>>is");
         console.log(node.frontmatter.title);
         createPage({

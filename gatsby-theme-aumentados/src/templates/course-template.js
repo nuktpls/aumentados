@@ -30,7 +30,10 @@ const CourseTemplate = ({ data, location, pageContext }) => {
   const bgPatternSrc = getSrc(bgPatternImg.childrenImageSharp[0]);
   const logoQuery = getImage(boilerplateLogo.childrenImageSharp[0]);
   const { title, content, description } = pageContext;
-
+  console.log(
+    "pageContext pageContext pageContext page Contextpage Contextpage Contextpage Context page Context"
+  );
+  console.log(pageContext);
   const contentCourse = data.course;
   // const questionaryCourse = data.allMarkdownRemark.edges.find(
   //   obj => obj.node.frontmatter.type === "questionary"
@@ -80,10 +83,12 @@ const CourseTemplate = ({ data, location, pageContext }) => {
     >
       <main>
         <div className='wrapper-main-classes-btn'>
-          <div className='main-classes-btn'>
-            <AulaBtnTrilha />
-            <h2>Trilha</h2>
-          </div>
+          <Link to='#classes' className='main-classes-btn'>
+            <div className='main-classes-btn'>
+              <AulaBtnTrilha />
+              <h2>Trilha</h2>
+            </div>
+          </Link>
           <Link to='#classes' className='main-classes-btn'>
             <AulaBtnAulas />
             <h2>Aulas</h2>
@@ -108,8 +113,8 @@ const CourseTemplate = ({ data, location, pageContext }) => {
         </div>
 
         <h1>oooio</h1>
-        <div dangerouslySetInnerHTML={{ __html: content }}></div>
-        <div id='classes'>
+        <div id='classes' dangerouslySetInnerHTML={{ __html: content }}></div>
+        <div id='tasks'>
           {data.allTasks.edges.map((e, ind) => (
             <Task key={ind} data={e.node} />
           ))}
