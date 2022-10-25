@@ -2,8 +2,10 @@ import React from "react";
 import { graphql, Link } from "gatsby";
 import { GatsbyImage, getImage, getSrc } from "gatsby-plugin-image";
 
-import MainPageWrapper from "@BlockBuilder/MainPageWrapper";
+import MainCourseWrapper from "@BlockBuilder/MainCourseWrapper";
 import { useSiteMetadatas } from "../tools/useSiteMetadatas";
+
+import { Row } from "../components/InsertRow";
 
 import { Task } from "../components/Task";
 import { Homework } from "../components/Homework";
@@ -47,7 +49,7 @@ const CourseTemplate = ({ data, location, pageContext }) => {
   // console.log("allFaqs >>>");
   // console.log(contentCourse);
   return (
-    <MainPageWrapper
+    <MainCourseWrapper
       backgroundImage={{
         src: bgPatternSrc,
       }}
@@ -82,7 +84,13 @@ const CourseTemplate = ({ data, location, pageContext }) => {
       }}
     >
       <main>
-        <div className='wrapper-main-classes-btn'>
+        <Row
+          opt={{
+            classes: "wrapper-main-classes-btn",
+            isBoxed: true,
+            numColumns: 3,
+          }}
+        >
           <Link to='#classes' className='main-classes-btn'>
             <div className='main-classes-btn'>
               <AulaBtnTrilha />
@@ -110,57 +118,48 @@ const CourseTemplate = ({ data, location, pageContext }) => {
             <AulaBtnAjuda />
             <h2>Ajuda</h2>
           </Link>
-        </div>
-
-        <h1>oooio</h1>
-        <div id='classes' dangerouslySetInnerHTML={{ __html: content }}></div>
-        <div id='tasks'>
-          {data.allTasks.edges.map((e, ind) => (
-            <Task key={ind} data={e.node} />
-          ))}
-        </div>
-        <div id='homework'>
-          {data.allHomeworks.edges.map((e, ind) => (
-            <Homework key={ind} data={e.node} />
-          ))}
-        </div>
-
-        <div id='apply'>
-          {data.allApplies.edges.map((e, ind) => (
-            <Apply key={ind} data={e.node} />
-          ))}
-        </div>
-
-        <div id='faq'>
-          {data.allFaqs.edges.map((e, ind) => (
-            <Faq key={ind} data={e.node} />
-          ))}
-        </div>
-
-        {/* 
-        <div className='course-content'>
-          <h1>Content Course</h1>
-
-          {contentCourse.map((theContent, index) => {
-            return (
-              <div key={index}>
-                <h2
-                  dangerouslySetInnerHTML={{
-                    __html: `${theContent.node.frontmatter.title}`,
-                  }}
-                ></h2>
-                <div
-                  dangerouslySetInnerHTML={{
-                    __html: `${theContent.node.html}`,
-                  }}
-                ></div>
-              </div>
-            );
-          })}
-
-        </div> */}
+        </Row>
       </main>
-    </MainPageWrapper>
+      <Row
+        opt={{
+          classes: "wrapper-tasks",
+          bgColor: "#4B0097",
+          isBoxed: false,
+        }}
+      >
+        <Row
+          opt={{
+            isBoxed: true,
+            classes: "wrapper-classes",
+          }}
+        >
+          <h1>O Curso</h1>
+          <div id='classes' dangerouslySetInnerHTML={{ __html: content }}></div>
+        </Row>
+      </Row>
+      <div id='tasks'>
+        {data.allTasks.edges.map((e, ind) => (
+          <Task key={ind} data={e.node} />
+        ))}
+      </div>
+      <div id='homework'>
+        {data.allHomeworks.edges.map((e, ind) => (
+          <Homework key={ind} data={e.node} />
+        ))}
+      </div>
+
+      <div id='apply'>
+        {data.allApplies.edges.map((e, ind) => (
+          <Apply key={ind} data={e.node} />
+        ))}
+      </div>
+
+      <div id='faq'>
+        {data.allFaqs.edges.map((e, ind) => (
+          <Faq key={ind} data={e.node} />
+        ))}
+      </div>
+    </MainCourseWrapper>
   );
 };
 

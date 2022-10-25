@@ -7,6 +7,8 @@ export const Row = ({ opt, children }) => {
     "1"}, ${opt.widthColumns || "1fr"})`;
   const bgParent = opt.bgColor && opt.isBoxed === false ? opt.bgColor : null;
   const bgChild = opt.bgColor && opt.isBoxed === true ? opt.bgColor : null;
+  console.log("bgChild");
+  console.log(opt.bgColor);
   return (
     <div
       className={`${rowWidth} ${opt.classes} ${alignTo} responsive-padding`}
